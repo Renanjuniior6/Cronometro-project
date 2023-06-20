@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url('./assets/R.jpg');
+    background-size: cover;
+}
+#box-numbers {
+    display: block;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    background: aliceblue;
+    width: 340px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.numbers {
+    font-size: 50px;
+    font-weight: 600;
+}
+.number-color {
+    color: rgb(194, 37, 37);
+}
+
+img {
+    height: 410px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+#box-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    color: rgb(194, 37, 37);
+    background-color: aliceblue;
+    padding: 6px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.active {
+    opacity: 0.5;
+}
